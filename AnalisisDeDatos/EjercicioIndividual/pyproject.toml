@@ -1,0 +1,29 @@
+[project]
+name = "intro-ia"
+version = "0.1.0"
+description = "Material de clases para Inteligencia Artificial (CEIA - FIUBA)."
+authors = ["Facundo Adrián Lucianna <facundolucianna@gmail.com>"]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "jupyterlab>=4.4.3",
+    "kagglehub>=1.0.0",
+    "matplotlib>=3.10.3",
+    "missingno>=0.5.2",
+    "numpy>=2.2.6",
+    "pandas>=2.2.3",
+    "pyarrow>=20.0.0",
+    "pygame>=2.6.1",
+    "pymupdf>=1.27.1",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
+    "vizdoom>=1.2.4",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
