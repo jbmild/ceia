@@ -1,0 +1,15 @@
+[project]
+name = "ceia-amia-tp"
+version = "0.1.0"
+description = "Repositorio base para TP opcional de Análisis Matemático para IA"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.7",
+    "numpy>=2.3.1",
+    "pandas>=2.3.0",
+    "scikit-learn>=1.7.0",
+    "scipy>=1.16.0",
+    "tqdm>=4.67.1",
+]
